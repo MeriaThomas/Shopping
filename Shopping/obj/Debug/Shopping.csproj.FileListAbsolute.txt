@@ -1,0 +1,18 @@
+c:\users\josem\onedrive\documents\visual studio 2015\Projects\Shopping\Shopping\bin\Debug\Shopping.exe.config
+c:\users\josem\onedrive\documents\visual studio 2015\Projects\Shopping\Shopping\bin\Debug\Shopping.exe
+c:\users\josem\onedrive\documents\visual studio 2015\Projects\Shopping\Shopping\bin\Debug\Shopping.pdb
+c:\users\josem\onedrive\documents\visual studio 2015\Projects\Shopping\Shopping\obj\Debug\Shopping.csprojResolveAssemblyReference.cache
+c:\users\josem\onedrive\documents\visual studio 2015\Projects\Shopping\Shopping\obj\Debug\Shopping.exe
+c:\users\josem\onedrive\documents\visual studio 2015\Projects\Shopping\Shopping\obj\Debug\Shopping.pdb
+C:\Users\josem\OneDrive\documents\visual studio 2015\Projects\Shopping\Shopping\bin\Debug\EntityFramework.dll
+C:\Users\josem\OneDrive\documents\visual studio 2015\Projects\Shopping\Shopping\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\josem\OneDrive\documents\visual studio 2015\Projects\Shopping\Shopping\bin\Debug\EntityFramework.xml
+C:\Users\josem\OneDrive\documents\visual studio 2015\Projects\Shopping\Shopping\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\josem\OneDrive\documents\visual studio 2015\Projects\Shopping\Shopping\obj\Debug\Shopping.Migrations.Relationships.resources
+C:\Users\josem\OneDrive\documents\visual studio 2015\Projects\Shopping\Shopping\obj\Debug\Shopping.csproj.GenerateResource.Cache
+C:\GitHub\Shopping\Shopping\bin\Debug\Shopping.exe.config
+C:\GitHub\Shopping\Shopping\obj\Debug\Shopping.exe
+C:\GitHub\Shopping\Shopping\obj\Debug\Shopping.pdb
+C:\GitHub\Shopping\Shopping\obj\Debug\Shopping.csprojResolveAssemblyReference.cache
+C:\GitHub\Shopping\Shopping\obj\Debug\Shopping.Migrations.Relationships.resources
+C:\GitHub\Shopping\Shopping\obj\Debug\Shopping.csproj.GenerateResource.Cache
