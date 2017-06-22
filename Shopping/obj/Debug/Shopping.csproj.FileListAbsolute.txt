@@ -16,3 +16,9 @@ C:\GitHub\Shopping\Shopping\obj\Debug\Shopping.pdb
 C:\GitHub\Shopping\Shopping\obj\Debug\Shopping.csprojResolveAssemblyReference.cache
 C:\GitHub\Shopping\Shopping\obj\Debug\Shopping.Migrations.Relationships.resources
 C:\GitHub\Shopping\Shopping\obj\Debug\Shopping.csproj.GenerateResource.Cache
+C:\GitHub\Shopping\Shopping\bin\Debug\Shopping.exe
+C:\GitHub\Shopping\Shopping\bin\Debug\Shopping.pdb
+C:\GitHub\Shopping\Shopping\bin\Debug\EntityFramework.dll
+C:\GitHub\Shopping\Shopping\bin\Debug\EntityFramework.SqlServer.dll
+C:\GitHub\Shopping\Shopping\bin\Debug\EntityFramework.xml
+C:\GitHub\Shopping\Shopping\bin\Debug\EntityFramework.SqlServer.xml

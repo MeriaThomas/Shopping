@@ -24,9 +24,9 @@ namespace Shopping
         }
 
 
-        public static Product CreateProduct(int pid,string pname, decimal pprice)
+        public static Product CreateProduct(string pname, decimal pprice)
         {
-            var product = new Product(pid);
+            var product = new Product();
             product.Pname(pname);
             product.Pprice(pprice);
             db.Products.Add(product);

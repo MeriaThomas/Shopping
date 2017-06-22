@@ -11,9 +11,6 @@ namespace Shopping
     {
         #region Variables
         private static int lastPid = 0;
-        private int pid;
-        private string pname;
-        private decimal pprice;
         #endregion
 
         #region Properties
@@ -33,27 +30,27 @@ namespace Shopping
             ProductId = ++lastPid;
         }
 
-        public Product (string pname) : this()
-        {
-            ProductName = pname;
-        }
+        //public Product (string pname) : this()
+        //{
+        //    ProductName = pname;
+        //}
 
-        public Product (string pname, decimal pprice) : this(pname)
-        {
-            ProductPrice = pprice; 
-        }
+        //public Product (string pname, decimal pprice) : this(pname)
+        //{
+        //    ProductPrice = pprice; 
+        //}
 
-        public Product(int pid, string pname, decimal pprice)
-        {
-            this.pid = pid;
-            this.pname = pname;
-            this.pprice = pprice;
-        }
+        //public Product(int pid, string pname, decimal pprice)
+        //{
+        //    this.pid = pid;
+        //    this.pname = pname;
+        //    this.pprice = pprice;
+        //}
 
-        public Product(int pid)
-        {
-            this.pid = pid;
-        }
+        //public Product(int pid)
+        //{
+        //    this.pid = pid;
+        //}
 
 
 
