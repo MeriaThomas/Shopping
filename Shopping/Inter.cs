@@ -24,11 +24,12 @@ namespace Shopping
         }
 
 
-        public static Product CreateProduct(string pname, decimal pprice)
+        public static Product CreateProduct(string pname, decimal pprice,int quantity)
         {
             var product = new Product();
             product.Pname(pname);
             product.Pprice(pprice);
+            product.Deposit(quantity);
             db.Products.Add(product);
             db.SaveChanges();
             return product;
@@ -39,6 +40,34 @@ namespace Shopping
             return db.Products.ToList();
         }
 
-     
+        public static int Deposit(int pid, int quantity)
+        {
+            var product = db.Products.Where(p => p.ProductId == pid).FirstOrDefault();
+            if (product == null)
+                throw new ArgumentException("Product not found");
+            var newStock = product.Deposit(quantity);
+            db.SaveChanges();
+            return newStock;
+
+        }
+
+        public static int Withdraw(int pid, int quantity)
+        {
+            var product = db.Products.Where(p => p.ProductId == pid).FirstOrDefault();
+            if (product == null)
+                throw new ArgumentException("Product not found");
+             var newStock = product.Withdraw(quantity);
+            db.SaveChanges();
+            return newStock;
+
+        }
+
+        public static List<History> GetHistoryByAccount (int accountNumber)
+        {
+            return db.Histories.Where(h => h.AccountNumber == accountNumber).ToList();
+
+        }
+
+
     }
 }
