@@ -21,9 +21,6 @@ namespace Shopping
         public string Address { get; set; }
         [Key]
         public int AccountNumber { get; private set; }
-
-        public virtual ICollection<History> Histories { get; set; }
-
         #endregion
 
         #region Constructors

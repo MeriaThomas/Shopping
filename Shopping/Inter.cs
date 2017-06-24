@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Shopping
 {
-    static class Inter
+    public static class Inter
     {
         private static ShoppingModel db = new ShoppingModel();
 
@@ -59,12 +59,6 @@ namespace Shopping
              var newStock = product.Withdraw(quantity);
             db.SaveChanges();
             return newStock;
-
-        }
-
-        public static List<History> GetHistoryByAccount (int accountNumber)
-        {
-            return db.Histories.Where(h => h.AccountNumber == accountNumber).ToList();
 
         }
 

@@ -24,8 +24,6 @@ namespace Shopping
         public virtual DbSet<Account> Accounts { get; set; }
 
         public virtual DbSet<Product> Products { get; set; }
-
-        public virtual DbSet<History> Histories { get; set; }
     }
 
     //public class MyEntity

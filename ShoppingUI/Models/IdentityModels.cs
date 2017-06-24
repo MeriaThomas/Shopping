@@ -21,7 +21,7 @@ namespace ShoppingUI.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("ShoppingModel", throwIfV1Schema: false)
         {
         }
 
